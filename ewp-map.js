@@ -24,25 +24,25 @@ var marker8=L.marker([40.49177,-74.27320]).addTo(map);
 var marker9=L.marker([40.257193, -74.536734]).addTo(map); 
 var marker10=L.marker([40.255431, -74.534184]).addTo(map); 
 var marker11=L.marker([40.255630, -74.533671]).addTo(map); 
-marker0.bindPopup("<h4>Manasquan Resovoir</h4><img src='http://eden.rutgers.edu/~hc525/425/ewp/images/Manasquan264.jpg' alt='Manasquan Resovoir' />",{minWidth:266});
-marker1.bindPopup("<h4>Livingston Campus</h4><img src='http://eden.rutgers.edu/~hc525/425/ewp/images/Livi264.jpg' alt='Livingston Campus' />",{minWidth:266});
-marker2.bindPopup("<h4>Shark River Bay</h4><img src='http://eden.rutgers.edu/~hc525/425/ewp/images/Bog_264.jpg' alt='Shark River' />",{minWidth:266});
-marker3.bindPopup("<h4>Eagle Rock Reservation</h4><img src='http://eden.rutgers.edu/~hc525/425/ewp/images/Eagle_Rock264.jpg' alt='Eagle Rock Reservation' />",{minWidth:266});
-marker4.bindPopup("<h4>Carniegie Lake</h4><img src='http://eden.rutgers.edu/~hc525/425/ewp/images/Carnegie_Lake264.jpg' alt='Carnegie Lake' />",{minWidth:266});
-marker5.bindPopup("<h4>Princeton</h4><img src='http://eden.rutgers.edu/~hc525/425/ewp/images/Princeton264.jpg' alt='Chapel' />",{minWidth:266});
-marker6.bindPopup("<h4>High School North</h4><img src='http://eden.rutgers.edu/~hc525/425/ewp/images/Art_District_264.jpg' alt='WW-P High School North' />",{minWidth:266});
-marker10.bindPopup("<h4>Into the Woods</h4><img src='http://eden.rutgers.edu/~hc525/425/ewp/images/Our_Town.png' alt='East Windsor, NJ' />",{minWidth:266});
-marker11.bindPopup("<h4>Into the Woods</h4><img src='http://eden.rutgers.edu/~hc525/425/ewp/images/Into_the_Woods.JPG' alt='East Windsor, NJ' />",{minWidth:266});
+marker0.bindPopup("<h4>Manasquan Resovoir</h4><img src='Manasquan264.jpg' alt='Manasquan Resovoir' />",{minWidth:266});
+marker1.bindPopup("<h4>Livingston Campus</h4><img src='Livi264.jpg' alt='Livingston Campus' />",{minWidth:266});
+marker2.bindPopup("<h4>Shark River Bay</h4><img src='Bog_264.jpg' alt='Shark River' />",{minWidth:266});
+marker3.bindPopup("<h4>Eagle Rock Reservation</h4><img src='Eagle_Rock264.jpg' alt='Eagle Rock Reservation' />",{minWidth:266});
+marker4.bindPopup("<h4>Carniegie Lake</h4><img src='Carnegie_Lake264.jpg' alt='Carnegie Lake' />",{minWidth:266});
+marker5.bindPopup("<h4>Princeton</h4><img src='Princeton264.jpg' alt='Chapel' />",{minWidth:266});
+marker6.bindPopup("<h4>High School North</h4><img src='Art_District_264.jpg' alt='WW-P High School North' />",{minWidth:266});
+marker10.bindPopup("<h4>Into the Woods</h4><img src='Our_Town.png' alt='East Windsor, NJ' />",{minWidth:266});
+marker11.bindPopup("<h4>Into the Woods</h4><img src='Into_the_Woods.JPG' alt='East Windsor, NJ' />",{minWidth:266});
 <path d="M17.932,381.487c5.031-5.904, [...] 305.273,468.456z" fill="#ff33bb" />
 var waterDangerIcon = L.icon({
-    iconUrl: 'http://eden.rutgers.edu/~hc525/425/ewp/images/water_danger.svg',
+    iconUrl: 'water_danger.svg',
     iconSize:     [60], 
     iconAnchor:   [22, 94], 
     popupAnchor:  [-3, -76] 
 });
 
 var dangerPin = L.icon({
-    iconUrl: 'http://eden.rutgers.edu/~hc525/425/ewp/images/danger_pin.svg',
+    iconUrl: 'danger_pin.svg',
     iconSize:     [60], 
     iconAnchor:   [22, 94], 
     popupAnchor:  [-3, -76] 

@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>What should we avoid?</title>
+<link rel="stylesheet" type="text/css" href="ewp.css" />
+<link rel="stylesheet" type="text/css" href="leaflet.css" />
+</head>
+<div id="page">
+<body id="ewp-map">
+<div id="wrapper">
+<header>
+	<nav></nav>
+ </header>
+ <main>
+ <h1>Map of the State of New Jersey</h1>
+<section id="map-display">
+	<div id="map">
+    </div>
+    <div class="legend accordion">
+<h3><img src="images/icons/map-key.svg" height="24px"></h3>
+<div>
+<h4>Dangers</h4>
+<dl>
+<dt><img src="images/icons/tyran01.svg"></dt>
+<dd>Leaping Lizards</dd>
+<dt><img src="images/icons/tyran02.svg"></dt>
+<dd>Fire Lizards</dd>
+<dt><img src="images/icons/tyran03.svg"></dt>
+<dd>Shifting Lizards</dd>
+</dl>
+</div>
+<div>
+<h4>Disappearances</h4>
+<dl>
+<dt class="key-color key-still-missing"></dt>
+<dd>Still Missing</dd>
+<dt class="key-color key-returned"></dt>
+<dd>Returned</dd>
+<dt class="key-color key-uncertain"></dt>
+<dd>Uncertain</dd>
+</dl>
+</div>
+</div>
+</section>
+</main>
+</div>
+<script src="/~hc525/425/ewp/js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="leaflet.js"></script>
+<script src="ewp-map.js"></script>   
+<script>
+$(window).load(function() {
+	var icons = {
+        header: "icon-key-down",
+        activeHeader: "icon-key-up"
+    };
+
+    $( ".accordion" ).accordion({
+		icons: icons,  
+        animate: 500,
+        collapsible: true,
+        active: false,
+        heightStyle: "content"
+    });
+});
+</script>   
+</body>
+</div>
+<footer>
+<p><a href="http://www.publicdomainpictures.net/view-image.php?image=81679&picture=danger-shark-sign">Shark Danger Icon</a></p>
+<p><a href="http://publicdomainvectors.org/en/free-clipart/Danger-icon/39756.html">Water Danger Icon</a></p>
+<p><a href="http://publicdomainvectors.org/en/free-clipart/Location-pin-with-shadow-vector-image/15902.html">Danger icon</a></p>
+</footer>
+</html>

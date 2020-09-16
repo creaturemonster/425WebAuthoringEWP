@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+#ewp-map #map {
+  height: 600px;
+  border: solid #bababa 1px;
+  }
+.leaflet-control-layers-toggle {
+	background-image: url(images/layers.png);
+	width: 36px;
+	height: 36px;
+	}
+.leaflet-retina .leaflet-control-layers-toggle {
+	background-image: url(images/layers-2x.png);
+	background-size: 26px 26px;
+	}
